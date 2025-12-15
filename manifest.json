@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Text Blackout",
+  "version": "1.0",
+  "description": "Click text to black it out on any webpage",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
